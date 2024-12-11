@@ -73,7 +73,7 @@ tdd-ts/
 ├── test/               # Test files
 ├── .eslintignore       # Files to ignore during linting
 ├── eslint.config.js    # ESLint configuration
-├── jest-config.json    # Jest configuration
+├── jest.config.json    # Jest configuration
 ├── tsconfig.json       # TypeScript configuration
 ├── package.json        # Project metadata and scripts
 └── README.md           # Documentation
