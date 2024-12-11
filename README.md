@@ -51,19 +51,21 @@ yarn
   ```
 
 ## IntelliJ IDEA Setup
+
 - Adjust node version: `Preferences` -> `Languages & Frameworks` -> `Node.js and NPM` and set the `Node interpreter` to the path of your Node.js installation.
+
   - Configure jest: `Run/debug configurations` -> `Add new configuration` -> `Jest` and set the `Jest package` to the path of your `jest` installation.'
 
     ![jestconfig.png](Intellij_Jest_config.png)
 
 ## Scripts
 
-| Command           | Description                        |
-|-------------------|------------------------------------|
-| `yarn test`       | Run all tests.                     |
-| `yarn test:watch` | Run tests in watch mode.           |
-| `yarn lint`       | Check for linting issues.          |
-| `yarn lint --fix` | Fix linting issues automatically.  |
+| Command           | Description                       |
+| ----------------- | --------------------------------- |
+| `yarn test`       | Run all tests.                    |
+| `yarn test:watch` | Run tests in watch mode.          |
+| `yarn lint`       | Check for linting issues.         |
+| `yarn lint --fix` | Fix linting issues automatically. |
 
 ## Folder Structure
 
@@ -71,7 +73,6 @@ yarn
 tdd-ts/
 ├── src/                # Source code
 ├── test/               # Test files
-├── .eslintignore       # Files to ignore during linting
 ├── eslint.config.js    # ESLint configuration
 ├── jest.config.json    # Jest configuration
 ├── tsconfig.json       # TypeScript configuration
